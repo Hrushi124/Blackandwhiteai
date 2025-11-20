@@ -1,190 +1,377 @@
-# Blackandwhiteai<!--
+# Blackandwhiteai# Blackandwhiteai<!--
 
- * @Author: SpenserCai
 
-**Black & White AI** - Restore and colorize old black & white photos and videos using AI. * @Date: 2023-07-28 14:35:35
 
- * @version:
+Transform your old black & white photos and videos into vibrant, colorized memories using the power of AI. * @Author: SpenserCai
 
-![example](examples/demo.jpeg) * @LastEditors: SpenserCai
 
- * @LastEditTime: 2023-08-28 01:05:53
 
-## About * @Description: file content
+<p align="center">**Black & White AI** - Restore and colorize old black & white photos and videos using AI. * @Date: 2023-07-28 14:35:35
 
--->
+  <img src="./examples/demo.jpeg" alt="Demo" width="800"/>
+
+</p> * @version:
+
+
+
+## 🌟 Features![example](examples/demo.jpeg) * @LastEditors: SpenserCai
+
+
+
+- **🖼️ Image Colorization** - Bring color to black & white photographs with adjustable quality settings * @LastEditTime: 2023-08-28 01:05:53
+
+- **🎬 Video Colorization** - Colorize entire videos frame by frame
+
+- **🎨 Dual Modes** - Choose between Stable (realistic) and Artistic (vibrant) colorization## About * @Description: file content
+
+- **⚡ GPU Accelerated** - Fast processing with CUDA support
+
+- **🌐 Easy Web Interface** - User-friendly Gradio-based UI accessible via browser-->
+
+- **📤 Batch Processing** - Process multiple images efficiently
 
 This application uses advanced AI technology to bring life back to old black and white photos and videos by automatically adding realistic colors. The tool provides an easy-to-use web interface for processing your media files.
 
+## 🚀 Quick Start
+
 <p align="center">
+
+### Prerequisites
 
 ## Features  <a href="https://nonebot.dev/"><img src="./examples/logo.png" width="200" height="200" alt="nonebot"></a>
 
-</p>
+- Python 3.8 or higher
 
-- 🖼️ **Image Processing** - Colorize black & white photos with adjustable render quality
+- CUDA-compatible GPU (recommended)</p>
 
-- 🎬 **Video Processing** - Colorize entire videos frame by frame<div align="center">
+- 8GB+ RAM (16GB recommended)
 
-- 🎨 **Artistic Mode** - Toggle between stable and artistic colorization styles
-
-- ⚡ **Fast Processing** - Optimized for performance with GPU support# Black & White AI for Stable Diffusion WebUI
-
-- 🌐 **Web Interface** - User-friendly Gradio-based web UI
-
-<a href="https://discord.gg/rfU5FQATtv">
-
-## Installation  <img src="https://discordapp.com/api/guilds/1138404797364580415/widget.png?style=shield" alt="Discord Server">
-
-</a>
-
-### Prerequisites  <a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=21gXfxbmZLJ&businessType=7&from=181074&biz=ka">
-
-    <img src="https://img.shields.io/badge/QQ%E9%A2%91%E9%81%93-SD%20WEBUI%20DEOLDIFY-5492ff?style=flat-square" alt="QQ Channel">
-
-- Python 3.8 or higher  </a>
-
-- CUDA-compatible GPU (recommended for faster processing)
-
-- FFmpeg (for video processing)This is an extension for StableDiffusion's [AUTOMATIC1111 web-ui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) that provides tools to restore and colorize old black & white photos and videos using AI. It is based on [DeOldify](https://github.com/jantic/DeOldify).
+- FFmpeg (for video processing)- 🖼️ **Image Processing** - Colorize black & white photos with adjustable render quality
 
 
 
-### Setup</div>
+### Installation- 🎬 **Video Processing** - Colorize entire videos frame by frame<div align="center">
 
 
 
-1. Clone this repository:![example](examples/demo.jpeg)
+1. **Clone the repository:**- 🎨 **Artistic Mode** - Toggle between stable and artistic colorization styles
 
 ```bash
 
-git clone https://github.com/Hrushi124/Blackandwhiteai.git<!--加粗字体：News-->
+git clone https://github.com/Hrushi124/Blackandwhiteai.git- ⚡ **Fast Processing** - Optimized for performance with GPU support# Black & White AI for Stable Diffusion WebUI
 
 cd Blackandwhiteai
 
-```## News
+```- 🌐 **Web Interface** - User-friendly Gradio-based web UI
 
 
 
-2. Install dependencies:### - 2023-08-12：The DeoldifyBot is open source, you can deploy it yourself.
+2. **Install dependencies:**<a href="https://discord.gg/rfU5FQATtv">
 
 ```bash
 
-python setup.py### - 2023-08-11：The DeoldifyBot is onlined.You can colorize old photo in [Discord](https://discord.gg/rfU5FQATtv).
+python setup.py## Installation  <img src="https://discordapp.com/api/guilds/1138404797364580415/widget.png?style=shield" alt="Discord Server">
 
 ```
 
-### - 2023-08-07：Support video colorization.
+This will automatically download the required AI models and install all dependencies.</a>
 
-3. Run the application:
 
-```bash### - 2023-08-05：Support install from Extensions list.
+
+3. **Run the application:**### Prerequisites  <a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=21gXfxbmZLJ&businessType=7&from=181074&biz=ka">
+
+```bash
+
+python app_complete.py    <img src="https://img.shields.io/badge/QQ%E9%A2%91%E9%81%93-SD%20WEBUI%20DEOLDIFY-5492ff?style=flat-square" alt="QQ Channel">
+
+```
+
+- Python 3.8 or higher  </a>
+
+4. **Open your browser** and navigate to `http://localhost:7860`
+
+- CUDA-compatible GPU (recommended for faster processing)
+
+## 📖 Usage Guide
+
+- FFmpeg (for video processing)This is an extension for StableDiffusion's [AUTOMATIC1111 web-ui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) that provides tools to restore and colorize old black & white photos and videos using AI. It is based on [DeOldify](https://github.com/jantic/DeOldify).
+
+### Image Colorization
+
+
+
+1. Open the **"Image — B&W AI"** tab
+
+2. Upload your black & white image### Setup</div>
+
+3. **Render Factor** (1-50): Higher = better quality but slower
+
+   - Low (1-10): Quick preview
+
+   - Medium (15-30): Balanced
+
+   - High (35-50): Best quality1. Clone this repository:![example](examples/demo.jpeg)
+
+4. Toggle **"Artistic Mode"** for more vibrant colors
+
+5. Click **"Process Image"**```bash
+
+6. Download your colorized result
+
+git clone https://github.com/Hrushi124/Blackandwhiteai.git<!--加粗字体：News-->
+
+### Video Colorization
+
+cd Blackandwhiteai
+
+1. Open the **"Video — B&W AI"** tab
+
+2. Upload your video (MP4, AVI, MOV, MKV supported)```## News
+
+3. Set **Render Factor** (1-40)
+
+4. Click **"Process Video"**
+
+5. Wait for completion (may take several minutes depending on video length)
+
+6. Download your colorized video2. Install dependencies:### - 2023-08-12：The DeoldifyBot is open source, you can deploy it yourself.
+
+
+
+## ⚙️ Configuration```bash
+
+
+
+### Render Factor Guidepython setup.py### - 2023-08-11：The DeoldifyBot is onlined.You can colorize old photo in [Discord](https://discord.gg/rfU5FQATtv).
+
+
+
+The render factor controls the quality vs speed trade-off:```
+
+
+
+| Range | Speed | Quality | Best For |### - 2023-08-07：Support video colorization.
+
+|-------|-------|---------|----------|
+
+| 1-10 | Fast | Good | Quick previews, testing |3. Run the application:
+
+| 15-25 | Medium | Great | Most use cases |
+
+| 30-40 | Slow | Excellent | Final outputs, important photos |```bash### - 2023-08-05：Support install from Extensions list.
+
+| 45-50 | Very Slow | Best | Professional use, large prints |
 
 python app_complete.py
 
+### Colorization Modes
+
 ```### - 2023-08-04：sd-webui-deoldify released.
 
+- **Stable Mode** (Default): Produces realistic, natural colors. Best for portraits and historical photos.
 
-
-4. Open your browser and navigate to the local URL shown in the terminal (typically `http://localhost:7860`)## Compatibility
-
-
-
-## Usage### OS
+- **Artistic Mode**: Creates more vibrant, saturated colors. Great for landscapes and creative projects.
 
 
 
-### Image Colorization<!--制作一个表格显示操作系统的兼容性，Windows不确定，linux兼容-->
+## 💻 System Requirements4. Open your browser and navigate to the local URL shown in the terminal (typically `http://localhost:7860`)## Compatibility
 
 
 
-1. Navigate to the "Image — B&W AI" tab|     OS     | Compatibility |                      Remark                       |
+### Minimum
 
-2. Upload your black & white image| :--------: | :-----------: | :-----------------------------------------------: |
+- CPU: Dual-core processor
 
-3. Adjust the render factor (1-50) - higher values give better quality but take longer| Windows 11 |      ✅       | Thank for [@w-e-w](https://github.com/w-e-w) test |
+- RAM: 8GB## Usage### OS
 
-4. Toggle "Artistic Mode" if desired|   Linux    |      ✅       |                                                   |
+- GPU: 4GB VRAM (CUDA-compatible)
 
-5. Click "Process Image"
+- Storage: 5GB free space
+
+
+
+### Recommended### Image Colorization<!--制作一个表格显示操作系统的兼容性，Windows不确定，linux兼容-->
+
+- CPU: Quad-core processor or better
+
+- RAM: 16GB
+
+- GPU: 8GB+ VRAM (NVIDIA RTX series)
+
+- Storage: 10GB free space1. Navigate to the "Image — B&W AI" tab|     OS     | Compatibility |                      Remark                       |
+
+
+
+## 🔧 Troubleshooting2. Upload your black & white image| :--------: | :-----------: | :-----------------------------------------------: |
+
+
+
+### Common Issues3. Adjust the render factor (1-50) - higher values give better quality but take longer| Windows 11 |      ✅       | Thank for [@w-e-w](https://github.com/w-e-w) test |
+
+
+
+**Out of Memory Error**4. Toggle "Artistic Mode" if desired|   Linux    |      ✅       |                                                   |
+
+- Reduce the render factor
+
+- Process smaller images/videos5. Click "Process Image"
+
+- Close other applications
 
 6. Download your colorized image### Pytorch
 
+**Slow Processing**
+
+- Ensure GPU drivers are up to date
+
+- Check that CUDA is properly installed
+
+- Lower the render factor### Video Colorization<!--制作一个表格显示Pytorch版本的兼容性-->
+
+- Use Stable mode instead of Artistic
 
 
-### Video Colorization<!--制作一个表格显示Pytorch版本的兼容性-->
+
+**Video Upload Issues**
+
+- Verify FFmpeg is installed: `ffmpeg -version`1. Navigate to the "Video — B&W AI" tab|          Version          | Compatibility |                          Remark                          |
+
+- Check video file format is supported
+
+- Try converting video to MP4 format2. Upload your black & white video (supports MP4, AVI, MOV, MKV)| :-----------------------: | :-----------: | :------------------------------------------------------: |
 
 
 
-1. Navigate to the "Video — B&W AI" tab|          Version          | Compatibility |                          Remark                          |
+**Models Not Downloading**3. Set the render factor (1-40)|      <=1.13.1+cu117       |      ✅       |                                                          |
 
-2. Upload your black & white video (supports MP4, AVI, MOV, MKV)| :-----------------------: | :-----------: | :------------------------------------------------------: |
+- Check your internet connection
 
-3. Set the render factor (1-40)|      <=1.13.1+cu117       |      ✅       |                                                          |
+- Manually download models from the setup script4. Click "Process Video"| 2.1.0.dev20230711+rocm5.5 |      ✅       | Thanks for [@fgtm2023](https://github.com/fgtm2023) test |
 
-4. Click "Process Video"| 2.1.0.dev20230711+rocm5.5 |      ✅       | Thanks for [@fgtm2023](https://github.com/fgtm2023) test |
+- Ensure you have write permissions in the models directory
 
 5. Wait for processing to complete (this may take several minutes)|        2.0.1+cu118        |      ✅       |    Thank for [@w-e-w](https://github.com/w-e-w) test     |
 
+### Installation Issues on macOS
+
 6. Download your colorized video
 
-### Other
+If you encounter SSL certificate errors:
 
-## Configuration
+```bash### Other
 
-If you have tested other systems or Pytorch during use, please submit a PR and attach a screenshot of the successful operation. Thank you
+python fix_ssl.py
 
-- **Render Factor**: Controls the quality of colorization
-
-  - Lower values (1-10): Faster but less detailed## Installation
-
-  - Medium values (15-25): Balanced quality and speed
-
-  - Higher values (30-50): Best quality but slower processingIn web-ui, go to the "Extensions" tab and use this URL https://github.com/SpenserCai/sd-webui-deoldify in the "install from URL" tab.
+```## Configuration
 
 
 
-- **Artistic Mode**: Provides more vibrant and creative colorization compared to the stable mode2023-08-05：Support install from Extensions list！！！
+## 📁 Project StructureIf you have tested other systems or Pytorch during use, please submit a PR and attach a screenshot of the successful operation. Thank you
 
 
+
+```- **Render Factor**: Controls the quality of colorization
+
+Blackandwhiteai/
+
+├── app_complete.py      # Main application  - Lower values (1-10): Faster but less detailed## Installation
+
+├── setup.py             # Setup and model downloader
+
+├── deoldify/            # Core AI modules  - Medium values (15-25): Balanced quality and speed
+
+├── fastai/              # Deep learning framework
+
+├── models/              # AI model files  - Higher values (30-50): Best quality but slower processingIn web-ui, go to the "Extensions" tab and use this URL https://github.com/SpenserCai/sd-webui-deoldify in the "install from URL" tab.
+
+│   └── deoldify/        # Colorization models
+
+├── examples/            # Demo images
+
+├── video_work/          # Video processing workspace
+
+└── scripts/             # Utility scripts- **Artistic Mode**: Provides more vibrant and creative colorization compared to the stable mode2023-08-05：Support install from Extensions list！！！
+
+```
+
+
+
+## 🎯 Tips for Best Results
 
 ## System RequirementsIf your network is not good, you can download the extension from [![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/spensercai/DeOldify)
 
+1. **Image Quality**: Higher resolution input images produce better results
 
+2. **Start Low**: Test with low render factors first to preview results quickly
 
-- **Minimum**: 8GB RAM, 4GB GPU VRAM## Usage
+3. **Experiment**: Try both Stable and Artistic modes to see which looks better
+
+4. **Preprocessing**: Clean, well-lit photos work best- **Minimum**: 8GB RAM, 4GB GPU VRAM## Usage
+
+5. **Video Settings**: For videos, render factor 20-30 is usually optimal
 
 - **Recommended**: 16GB RAM, 8GB+ GPU VRAM
 
+## 🤝 Contributing
+
 - **Storage**: At least 5GB free space for models1. In web-ui, go to the "Extra" tab and select "DeOldify" checkbox.
 
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
+
+
+## 📝 License
 
 ## Troubleshooting2. Upload the old photo you want to colorize.
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
+
+## 🙏 Acknowledgments
 
 ### Common Issues## Application Scenario
 
+This project uses advanced deep learning techniques for image colorization. Built with:
 
+- PyTorch for neural network operations
 
-1. **Out of Memory Error**: Reduce the render factor or process smaller images/videosCombining Upscale, GFPGAN, and Denoldify for old photo restoration effects
+- Gradio for the web interface
 
-2. **Slow Processing**: Ensure you have a CUDA-compatible GPU and drivers installed
-
-3. **Video Upload Issues**: Check that FFmpeg is properly installed and in your PATH|                            Before                            |                           After                            |
-
-| :----------------------------------------------------------: | :--------------------------------------------------------: |
-
-## Contributing| <img src="examples/before.jpeg" alt="before" align=center /> | <img src="examples/after.jpeg" alt="after" align=center /> |
+- FastAI framework for model training architecture1. **Out of Memory Error**: Reduce the render factor or process smaller images/videosCombining Upscale, GFPGAN, and Denoldify for old photo restoration effects
 
 
 
-Contributions are welcome! Please feel free to submit issues or pull requests.## Video Colorization
+## 📞 Support2. **Slow Processing**: Ensure you have a CUDA-compatible GPU and drivers installed
 
 
 
-## License<img src="examples/video_demo.gif" alt="video_demo" align=center />
+Having issues? Please open an issue on GitHub with:3. **Video Upload Issues**: Check that FFmpeg is properly installed and in your PATH|                            Before                            |                           After                            |
+
+- Description of the problem
+
+- Steps to reproduce| :----------------------------------------------------------: | :--------------------------------------------------------: |
+
+- System information (OS, Python version, GPU)
+
+- Error messages or screenshots## Contributing| <img src="examples/before.jpeg" alt="before" align=center /> | <img src="examples/after.jpeg" alt="after" align=center /> |
+
+
+
+## 🌟 Star This Repo
+
+
+
+If you find this project useful, please consider giving it a star ⭐ on GitHub!Contributions are welcome! Please feel free to submit issues or pull requests.## Video Colorization
+
+
+
+---
+
+
+
+**Made with ❤️ for preserving memories**## License<img src="examples/video_demo.gif" alt="video_demo" align=center />
+
 
 
 
