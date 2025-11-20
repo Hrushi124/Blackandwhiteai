@@ -1,48 +1,94 @@
-# Blackandwhiteai# Blackandwhiteai<!--
+# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai<!--
 
 
 
-Transform your old black & white photos and videos into vibrant, colorized memories using the power of AI. * @Author: SpenserCai
+AI-powered tool to colorize black & white photos and videos.
 
 
 
-<p align="center">**Black & White AI** - Restore and colorize old black & white photos and videos using AI. * @Date: 2023-07-28 14:35:35
-
-  <img src="./examples/demo.jpeg" alt="Demo" width="800"/>
-
-</p> * @version:
+## InstallationTransform your old black & white photos and videos into vibrant, colorized memories using the power of AI. * @Author: SpenserCai
 
 
+
+1. Clone the repository:
+
+```bash
+
+git clone https://github.com/Hrushi124/Blackandwhiteai.git<p align="center">**Black & White AI** - Restore and colorize old black & white photos and videos using AI. * @Date: 2023-07-28 14:35:35
+
+cd Blackandwhiteai
+
+```  <img src="./examples/demo.jpeg" alt="Demo" width="800"/>
+
+
+
+2. Install dependencies:</p> * @version:
+
+```bash
+
+python setup.py
+
+```
 
 ## 🌟 Features![example](examples/demo.jpeg) * @LastEditors: SpenserCai
 
+## How to Run
 
 
-- **🖼️ Image Colorization** - Bring color to black & white photographs with adjustable quality settings * @LastEditTime: 2023-08-28 01:05:53
 
-- **🎬 Video Colorization** - Colorize entire videos frame by frame
+Run the application:
 
-- **🎨 Dual Modes** - Choose between Stable (realistic) and Artistic (vibrant) colorization## About * @Description: file content
+```bash- **🖼️ Image Colorization** - Bring color to black & white photographs with adjustable quality settings * @LastEditTime: 2023-08-28 01:05:53
 
-- **⚡ GPU Accelerated** - Fast processing with CUDA support
+python app_complete.py
 
-- **🌐 Easy Web Interface** - User-friendly Gradio-based UI accessible via browser-->
+```- **🎬 Video Colorization** - Colorize entire videos frame by frame
 
-- **📤 Batch Processing** - Process multiple images efficiently
 
-This application uses advanced AI technology to bring life back to old black and white photos and videos by automatically adding realistic colors. The tool provides an easy-to-use web interface for processing your media files.
 
-## 🚀 Quick Start
+Open your browser and go to `http://localhost:7860`- **🎨 Dual Modes** - Choose between Stable (realistic) and Artistic (vibrant) colorization## About * @Description: file content
 
-<p align="center">
 
-### Prerequisites
 
-## Features  <a href="https://nonebot.dev/"><img src="./examples/logo.png" width="200" height="200" alt="nonebot"></a>
+## Usage- **⚡ GPU Accelerated** - Fast processing with CUDA support
 
-- Python 3.8 or higher
 
-- CUDA-compatible GPU (recommended)</p>
+
+### For Images:- **🌐 Easy Web Interface** - User-friendly Gradio-based UI accessible via browser-->
+
+1. Go to "Image — B&W AI" tab
+
+2. Upload a black & white image- **📤 Batch Processing** - Process multiple images efficiently
+
+3. Adjust render factor (1-50)
+
+4. Click "Process Image"This application uses advanced AI technology to bring life back to old black and white photos and videos by automatically adding realistic colors. The tool provides an easy-to-use web interface for processing your media files.
+
+
+
+### For Videos:## 🚀 Quick Start
+
+1. Go to "Video — B&W AI" tab
+
+2. Upload a black & white video<p align="center">
+
+3. Set render factor (1-40)
+
+4. Click "Process Video"### Prerequisites
+
+
+
+## Requirements## Features  <a href="https://nonebot.dev/"><img src="./examples/logo.png" width="200" height="200" alt="nonebot"></a>
+
+
+
+- Python 3.8+- Python 3.8 or higher
+
+- CUDA-compatible GPU (recommended)
+
+- 8GB+ RAM- CUDA-compatible GPU (recommended)</p>
+
+- FFmpeg (for video processing)
 
 - 8GB+ RAM (16GB recommended)
 
