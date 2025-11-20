@@ -1,36 +1,55 @@
-# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai<!--
+# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai<!--
 
 
 
-AI-powered tool to colorize black and white photos and videos.
+## How to Run
 
 
 
-## InstallationAI-powered tool to colorize black & white photos and videos.
+```bash## How to RunAI-powered tool to colorize black and white photos and videos.
 
-
-
-Clone the repository:
-
-```bash
-
-git clone https://github.com/Hrushi124/Blackandwhiteai.git## InstallationTransform your old black & white photos and videos into vibrant, colorized memories using the power of AI. * @Author: SpenserCai
+git clone https://github.com/Hrushi124/Blackandwhiteai.git
 
 cd Blackandwhiteai
 
+python setup.py
+
+python app_complete.py1. Install dependencies:## InstallationAI-powered tool to colorize black & white photos and videos.
+
 ```
 
+```
+
+Open browser: http://localhost:7860
+
+python setup.pyClone the repository:
+
+```
+
+```bash
+
+2. Run the application:
+
+```git clone https://github.com/Hrushi124/Blackandwhiteai.git## InstallationTransform your old black & white photos and videos into vibrant, colorized memories using the power of AI. * @Author: SpenserCai
+
+python app_complete.py
+
+```cd Blackandwhiteai
+
+
+
+3. Open browser at `http://localhost:7860````
 
 
 Install dependencies:1. Clone the repository:
 
-```bash
+````bash
 
 python setup.py```bash
 
-```
+````
 
-git clone https://github.com/Hrushi124/Blackandwhiteai.git<p align="center">**Black & White AI** - Restore and colorize old black & white photos and videos using AI. * @Date: 2023-07-28 14:35:35
+git clone https://github.com/Hrushi124/Blackandwhiteai.git<p align="center">**Black & White AI** - Restore and colorize old black & white photos and videos using AI. \* @Date: 2023-07-28 14:35:35
 
 ## How to Run
 
@@ -38,11 +57,11 @@ cd Blackandwhiteai
 
 Run the application:
 
-```bash```  <img src="./examples/demo.jpeg" alt="Demo" width="800"/>
+`bash` <img src="./examples/demo.jpeg" alt="Demo" width="800"/>
 
 python app_complete.py
 
-```
+````
 
 
 
@@ -164,13 +183,11 @@ cd Blackandwhiteai
 
 python setup.py## Installation  <img src="https://discordapp.com/api/guilds/1138404797364580415/widget.png?style=shield" alt="Discord Server">
 
-```
+````
 
 This will automatically download the required AI models and install all dependencies.</a>
 
-
-
-3. **Run the application:**### Prerequisites  <a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=21gXfxbmZLJ&businessType=7&from=181074&biz=ka">
+3. **Run the application:**### Prerequisites <a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=21gXfxbmZLJ&businessType=7&from=181074&biz=ka">
 
 ```bash
 
@@ -178,7 +195,7 @@ python app_complete.py    <img src="https://img.shields.io/badge/QQ%E9%A2%91%E9%
 
 ```
 
-- Python 3.8 or higher  </a>
+- Python 3.8 or higher </a>
 
 4. **Open your browser** and navigate to `http://localhost:7860`
 
@@ -189,8 +206,6 @@ python app_complete.py    <img src="https://img.shields.io/badge/QQ%E9%A2%91%E9%
 - FFmpeg (for video processing)This is an extension for StableDiffusion's [AUTOMATIC1111 web-ui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) that provides tools to restore and colorize old black & white photos and videos using AI. It is based on [DeOldify](https://github.com/jantic/DeOldify).
 
 ### Image Colorization
-
-
 
 1. Open the **"Image — B&W AI"** tab
 
@@ -228,19 +243,11 @@ cd Blackandwhiteai
 
 6. Download your colorized video2. Install dependencies:### - 2023-08-12：The DeoldifyBot is open source, you can deploy it yourself.
 
-
-
 ## ⚙️ Configuration```bash
-
-
 
 ### Render Factor Guidepython setup.py### - 2023-08-11：The DeoldifyBot is onlined.You can colorize old photo in [Discord](https://discord.gg/rfU5FQATtv).
 
-
-
 The render factor controls the quality vs speed trade-off:```
-
-
 
 | Range | Speed | Quality | Best For |### - 2023-08-07：Support video colorization.
 
@@ -258,7 +265,7 @@ python app_complete.py
 
 ### Colorization Modes
 
-```### - 2023-08-04：sd-webui-deoldify released.
+````### - 2023-08-04：sd-webui-deoldify released.
 
 - **Stable Mode** (Default): Produces realistic, natural colors. Best for portraits and historical photos.
 
@@ -384,9 +391,7 @@ Blackandwhiteai/
 
 └── scripts/             # Utility scripts- **Artistic Mode**: Provides more vibrant and creative colorization compared to the stable mode2023-08-05：Support install from Extensions list！！！
 
-```
-
-
+````
 
 ## 🎯 Tips for Best Results
 
@@ -410,15 +415,11 @@ Blackandwhiteai/
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-
-
 ## 📝 License
 
 ## Troubleshooting2. Upload the old photo you want to colorize.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
 
 ## 🙏 Acknowledgments
 
@@ -432,13 +433,9 @@ This project uses advanced deep learning techniques for image colorization. Buil
 
 - FastAI framework for model training architecture1. **Out of Memory Error**: Reduce the render factor or process smaller images/videosCombining Upscale, GFPGAN, and Denoldify for old photo restoration effects
 
-
-
 ## 📞 Support2. **Slow Processing**: Ensure you have a CUDA-compatible GPU and drivers installed
 
-
-
-Having issues? Please open an issue on GitHub with:3. **Video Upload Issues**: Check that FFmpeg is properly installed and in your PATH|                            Before                            |                           After                            |
+Having issues? Please open an issue on GitHub with:3. **Video Upload Issues**: Check that FFmpeg is properly installed and in your PATH| Before | After |
 
 - Description of the problem
 
@@ -448,32 +445,17 @@ Having issues? Please open an issue on GitHub with:3. **Video Upload Issues**: C
 
 - Error messages or screenshots## Contributing| <img src="examples/before.jpeg" alt="before" align=center /> | <img src="examples/after.jpeg" alt="after" align=center /> |
 
-
-
 ## 🌟 Star This Repo
-
-
 
 If you find this project useful, please consider giving it a star ⭐ on GitHub!Contributions are welcome! Please feel free to submit issues or pull requests.## Video Colorization
 
-
-
 ---
-
-
 
 **Made with ❤️ for preserving memories**## License<img src="examples/video_demo.gif" alt="video_demo" align=center />
 
-
-
-
 This project is licensed under the MIT License - see the LICENSE file for details.<hr/>
 
-
-
 ## Acknowledgments### Usage
-
-
 
 - Based on DeOldify technology```bash
 
@@ -481,22 +463,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Uses PyTorch for deep learning inference```
 
-
-
 ## ContactIn "DeOldify" tab, upload the video you want to colorize,set "Render Factor" and click "Run".
-
-
 
 For questions or support, please open an issue on GitHub.## DeOldifyBot
 
-
-
 ---### Usage
 
-
-
 Made with ❤️ by the Black & White AI team#### 1.Add [Discord](https://discord.gg/rfU5FQATtv) Server.
-
 
 ![DeoldifyBot](examples/discord.gif)
 
