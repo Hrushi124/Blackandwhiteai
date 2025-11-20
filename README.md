@@ -1,48 +1,94 @@
-# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai<!--
+# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai# Blackandwhiteai<!--
 
 
 
-AI-powered tool to colorize black & white photos and videos.
+AI-powered tool to colorize black and white photos and videos.
 
 
 
-## InstallationTransform your old black & white photos and videos into vibrant, colorized memories using the power of AI. * @Author: SpenserCai
+## InstallationAI-powered tool to colorize black & white photos and videos.
 
 
 
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 
-git clone https://github.com/Hrushi124/Blackandwhiteai.git<p align="center">**Black & White AI** - Restore and colorize old black & white photos and videos using AI. * @Date: 2023-07-28 14:35:35
+git clone https://github.com/Hrushi124/Blackandwhiteai.git## InstallationTransform your old black & white photos and videos into vibrant, colorized memories using the power of AI. * @Author: SpenserCai
 
 cd Blackandwhiteai
 
-```  <img src="./examples/demo.jpeg" alt="Demo" width="800"/>
+```
 
 
 
-2. Install dependencies:</p> * @version:
+Install dependencies:1. Clone the repository:
 
 ```bash
 
-python setup.py
+python setup.py```bash
 
 ```
 
-## 🌟 Features![example](examples/demo.jpeg) * @LastEditors: SpenserCai
+git clone https://github.com/Hrushi124/Blackandwhiteai.git<p align="center">**Black & White AI** - Restore and colorize old black & white photos and videos using AI. * @Date: 2023-07-28 14:35:35
 
 ## How to Run
 
-
+cd Blackandwhiteai
 
 Run the application:
 
-```bash- **🖼️ Image Colorization** - Bring color to black & white photographs with adjustable quality settings * @LastEditTime: 2023-08-28 01:05:53
+```bash```  <img src="./examples/demo.jpeg" alt="Demo" width="800"/>
 
 python app_complete.py
 
-```- **🎬 Video Colorization** - Colorize entire videos frame by frame
+```
+
+
+
+Open your browser and go to: `http://localhost:7860`2. Install dependencies:</p> * @version:
+
+
+
+## Usage```bash
+
+
+
+**For Images:**python setup.py
+
+- Go to "Image — B&W AI" tab
+
+- Upload a black and white image```
+
+- Adjust render factor (1-50)
+
+- Click "Process Image"## 🌟 Features![example](examples/demo.jpeg) * @LastEditors: SpenserCai
+
+
+
+**For Videos:**## How to Run
+
+- Go to "Video — B&W AI" tab
+
+- Upload a black and white video
+
+- Set render factor (1-40)
+
+- Click "Process Video"Run the application:
+
+
+
+## Requirements```bash- **🖼️ Image Colorization** - Bring color to black & white photographs with adjustable quality settings * @LastEditTime: 2023-08-28 01:05:53
+
+
+
+- Python 3.8 or higherpython app_complete.py
+
+- CUDA-compatible GPU (recommended)
+
+- 8GB RAM minimum```- **🎬 Video Colorization** - Colorize entire videos frame by frame
+
+- FFmpeg (for video processing)
 
 
 
