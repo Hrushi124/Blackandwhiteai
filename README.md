@@ -57,7 +57,7 @@ cd Blackandwhiteai
 
 Run the application:
 
-`bash` <img src="./examples/demo.jpeg" alt="Demo" width="800"/>
+
 
 python app_complete.py
 
